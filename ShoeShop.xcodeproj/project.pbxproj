@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5296B482BEFC21400922D93 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B472BEFC21400922D93 /* ProductCard.swift */; };
+		D5296B4A2BEFC4FE00922D93 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B492BEFC4FE00922D93 /* CartManager.swift */; };
+		D5296B4C2BEFC5B300922D93 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B4B2BEFC5B300922D93 /* PaymentHandler.swift */; };
+		D5296B4E2BEFC83300922D93 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B4D2BEFC83300922D93 /* ProductListView.swift */; };
+		D5296B502BEFC8EF00922D93 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B4F2BEFC8EF00922D93 /* CartView.swift */; };
+		D5296B522BEFC94300922D93 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B512BEFC94300922D93 /* ProductRow.swift */; };
+		D5296B542BEFCAC300922D93 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B532BEFCAC300922D93 /* ProductDetailView.swift */; };
+		D5296B562BEFCB7000922D93 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B552BEFCB7000922D93 /* UIImage+Extension.swift */; };
+		D5296B582BEFCD2000922D93 /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5296B572BEFCD2000922D93 /* ApplePayButton.swift */; };
+		D5296B5B2BEFF03700922D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5296B5A2BEFF03700922D93 /* LaunchScreen.storyboard */; };
+		D57139472BEFBD8200D9CEDD /* ShoeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57139462BEFBD8200D9CEDD /* ShoeShopApp.swift */; };
+		D57139492BEFBD8200D9CEDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57139482BEFBD8200D9CEDD /* ContentView.swift */; };
+		D571394B2BEFBD8600D9CEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D571394A2BEFBD8600D9CEDD /* Assets.xcassets */; };
+		D571394E2BEFBD8600D9CEDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D571394D2BEFBD8600D9CEDD /* Preview Assets.xcassets */; };
+		D57139592BEFBFEC00D9CEDD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57139582BEFBFEB00D9CEDD /* Product.swift */; };
+		D571395B2BEFC00600D9CEDD /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D571395A2BEFC00600D9CEDD /* Cart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5296B472BEFC21400922D93 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		D5296B492BEFC4FE00922D93 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		D5296B4B2BEFC5B300922D93 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		D5296B4D2BEFC83300922D93 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		D5296B4F2BEFC8EF00922D93 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		D5296B512BEFC94300922D93 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		D5296B532BEFCAC300922D93 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		D5296B552BEFCB7000922D93 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D5296B572BEFCD2000922D93 /* ApplePayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayButton.swift; sourceTree = "<group>"; };
+		D5296B592BEFDDA900922D93 /* ShoeShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShoeShop.entitlements; sourceTree = "<group>"; };
+		D5296B5A2BEFF03700922D93 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D57139432BEFBD8200D9CEDD /* ShoeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57139462BEFBD8200D9CEDD /* ShoeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeShopApp.swift; sourceTree = "<group>"; };
+		D57139482BEFBD8200D9CEDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D571394A2BEFBD8600D9CEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D571394D2BEFBD8600D9CEDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D57139582BEFBFEB00D9CEDD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D571395A2BEFC00600D9CEDD /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57139402BEFBD8200D9CEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D571393A2BEFBD8200D9CEDD = {
+			isa = PBXGroup;
+			children = (
+				D57139452BEFBD8200D9CEDD /* ShoeShop */,
+				D57139442BEFBD8200D9CEDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57139442BEFBD8200D9CEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57139432BEFBD8200D9CEDD /* ShoeShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57139452BEFBD8200D9CEDD /* ShoeShop */ = {
+			isa = PBXGroup;
+			children = (
+				D5296B592BEFDDA900922D93 /* ShoeShop.entitlements */,
+				D57139572BEFBE5300D9CEDD /* Helpers */,
+				D57139562BEFBE3D00D9CEDD /* Managers */,
+				D57139552BEFBE3700D9CEDD /* Views */,
+				D57139542BEFBE2900D9CEDD /* Models */,
+				D57139462BEFBD8200D9CEDD /* ShoeShopApp.swift */,
+				D57139482BEFBD8200D9CEDD /* ContentView.swift */,
+				D571394A2BEFBD8600D9CEDD /* Assets.xcassets */,
+				D571394C2BEFBD8600D9CEDD /* Preview Content */,
+				D5296B5A2BEFF03700922D93 /* LaunchScreen.storyboard */,
+			);
+			path = ShoeShop;
+			sourceTree = "<group>";
+		};
+		D571394C2BEFBD8600D9CEDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D571394D2BEFBD8600D9CEDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D57139542BEFBE2900D9CEDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D57139582BEFBFEB00D9CEDD /* Product.swift */,
+				D571395A2BEFC00600D9CEDD /* Cart.swift */,
+			);
+			name = Models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D57139552BEFBE3700D9CEDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5296B472BEFC21400922D93 /* ProductCard.swift */,
+				D5296B4D2BEFC83300922D93 /* ProductListView.swift */,
+				D5296B4F2BEFC8EF00922D93 /* CartView.swift */,
+				D5296B512BEFC94300922D93 /* ProductRow.swift */,
+				D5296B532BEFCAC300922D93 /* ProductDetailView.swift */,
+				D5296B572BEFCD2000922D93 /* ApplePayButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D57139562BEFBE3D00D9CEDD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D5296B492BEFC4FE00922D93 /* CartManager.swift */,
+				D5296B4B2BEFC5B300922D93 /* PaymentHandler.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D57139572BEFBE5300D9CEDD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D5296B552BEFCB7000922D93 /* UIImage+Extension.swift */,
+			);
+			name = Helpers;
+			path = "New Group3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57139422BEFBD8200D9CEDD /* ShoeShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57139512BEFBD8600D9CEDD /* Build configuration list for PBXNativeTarget "ShoeShop" */;
+			buildPhases = (
+				D571393F2BEFBD8200D9CEDD /* Sources */,
+				D57139402BEFBD8200D9CEDD /* Frameworks */,
+				D57139412BEFBD8200D9CEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoeShop;
+			productName = ShoeShop;
+			productReference = D57139432BEFBD8200D9CEDD /* ShoeShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D571393B2BEFBD8200D9CEDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D57139422BEFBD8200D9CEDD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D571393E2BEFBD8200D9CEDD /* Build configuration list for PBXProject "ShoeShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D571393A2BEFBD8200D9CEDD;
+			productRefGroup = D57139442BEFBD8200D9CEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57139422BEFBD8200D9CEDD /* ShoeShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57139412BEFBD8200D9CEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5296B5B2BEFF03700922D93 /* LaunchScreen.storyboard in Resources */,
+				D571394E2BEFBD8600D9CEDD /* Preview Assets.xcassets in Resources */,
+				D571394B2BEFBD8600D9CEDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D571393F2BEFBD8200D9CEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5296B502BEFC8EF00922D93 /* CartView.swift in Sources */,
+				D5296B4E2BEFC83300922D93 /* ProductListView.swift in Sources */,
+				D5296B542BEFCAC300922D93 /* ProductDetailView.swift in Sources */,
+				D5296B562BEFCB7000922D93 /* UIImage+Extension.swift in Sources */,
+				D5296B522BEFC94300922D93 /* ProductRow.swift in Sources */,
+				D57139492BEFBD8200D9CEDD /* ContentView.swift in Sources */,
+				D5296B4A2BEFC4FE00922D93 /* CartManager.swift in Sources */,
+				D57139472BEFBD8200D9CEDD /* ShoeShopApp.swift in Sources */,
+				D5296B4C2BEFC5B300922D93 /* PaymentHandler.swift in Sources */,
+				D57139592BEFBFEC00D9CEDD /* Product.swift in Sources */,
+				D5296B482BEFC21400922D93 /* ProductCard.swift in Sources */,
+				D5296B582BEFCD2000922D93 /* ApplePayButton.swift in Sources */,
+				D571395B2BEFC00600D9CEDD /* Cart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D571394F2BEFBD8600D9CEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D57139502BEFBD8600D9CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57139522BEFBD8600D9CEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShoeShop/ShoeShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoeShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hardibsalih.ShoeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D57139532BEFBD8600D9CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShoeShop/ShoeShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoeShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hardibsalih.ShoeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D571393E2BEFBD8200D9CEDD /* Build configuration list for PBXProject "ShoeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D571394F2BEFBD8600D9CEDD /* Debug */,
+				D57139502BEFBD8600D9CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57139512BEFBD8600D9CEDD /* Build configuration list for PBXNativeTarget "ShoeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57139522BEFBD8600D9CEDD /* Debug */,
+				D57139532BEFBD8600D9CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D571393B2BEFBD8200D9CEDD /* Project object */;
+}
